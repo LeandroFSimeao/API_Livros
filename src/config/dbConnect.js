@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb+srv://leandro:123@node-express.tnfhb.mongodb.net/alura-node");
+mongoose.connect("stringLinkMongoDB");
 
 let db = mongoose.connection;
 
